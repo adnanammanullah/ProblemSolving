@@ -1,5 +1,7 @@
 package com.educative.slidingwindow;
 
+import java.util.HashMap;
+
 public class LongestSameSubStrWithReplacement {
 	
 	public static int findLength(String str, int k) {

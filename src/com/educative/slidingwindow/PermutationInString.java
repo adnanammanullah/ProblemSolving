@@ -1,3 +1,4 @@
+package com.educative.slidingwindow;
 import java.util.HashMap;
 
 public class PermutationInString {
@@ -26,7 +27,7 @@ public class PermutationInString {
 			if(matched==charCount.size())
 				return true;
 			
-			while(windowEnd-windowStart+1 > pattern.length()) {
+			if(windowEnd-windowStart+1 >= pattern.length()) {
 				//shrink the window
 				if(charCount.containsKey(str.charAt(windowStart))) {
 					if(charCount.getOrDefault(str.charAt(windowStart), 0)==0)
@@ -46,6 +47,7 @@ public class PermutationInString {
 		System.out.println(findPermutation("odicf", "dc"));
 		System.out.println(findPermutation("bcdxabcdy", "bcdyabcdx"));
 		System.out.println(findPermutation("aaacb", "abc"));
+		System.out.println(findPermutation("abbc", "abc"));
 		System.out.println(findPermutation("a", "xyd"));
 	}
 

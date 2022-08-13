@@ -1,3 +1,4 @@
+package com.educative.slidingwindow;
 import java.util.HashMap;
 
 public class LongestSubArrayWithOnesAfterRep {
