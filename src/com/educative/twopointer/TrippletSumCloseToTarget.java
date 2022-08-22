@@ -26,7 +26,6 @@ public class TrippletSumCloseToTarget {
 		int j=arr.length-1;
 		while(left<j) {
 			if(Math.abs(targetSum-(arr[left]+arr[j])) < minDiff) {
-				//pairList.add(Arrays.asList(-targetSum, arr[left], arr[j]));
 				minDiff = Math.abs(targetSum-(arr[left]+arr[j]));
 				left++;
 				j--;
