@@ -55,12 +55,6 @@ class RearrangeLinkedList {
 		head.next.next.next.next = new ListNode(10);
 //		head.next.next.next.next.next = new ListNode(12);
 
-		List<String> arr = new ArrayList<>();
-		
-		for(String str: arr) {
-			
-		}
-		arr.remove("a");
 		ListNode headCopy = head;
 		while (headCopy != null) {
 			System.out.print(headCopy.value + " ");
