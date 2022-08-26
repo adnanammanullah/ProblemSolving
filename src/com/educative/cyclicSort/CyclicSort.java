@@ -1,0 +1,25 @@
+package com.educative.cyclicSort;
+
+import java.util.Arrays;
+
+public class CyclicSort {
+
+	public static void sort(int[] nums) {
+		int i=-1;
+		int target;
+		do {
+			i++;
+			target=nums[nums[i]-1];
+			nums[nums[i]-1]=nums[i];
+		}while(i!=target-1);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] nums = new int[] {5,3,2,1,4};
+		sort(nums);
+		System.out.println(Arrays.toString(nums));
+
+	}
+
+}

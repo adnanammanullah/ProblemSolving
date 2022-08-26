@@ -77,7 +77,7 @@ public class ConflictingAppointments {
 		for(int i=1; i<intervals.length; i++) {
 			if(intervals[i].start<end) {
 				mergeIntervals.add(new Interval(start, end));
-				mergeIntervals.add(new Interval(intervals[i].start, intervals[i].start));
+				mergeIntervals.add(new Interval(intervals[i].start, intervals[i].end));
 			}else {
 				start=intervals[i].start;
 				end=intervals[i].end;
