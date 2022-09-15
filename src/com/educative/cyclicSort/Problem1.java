@@ -1,4 +1,4 @@
-package com.educative.cylicSort;
+package com.educative.cyclicSort;
 
 public class Problem1 {
 	

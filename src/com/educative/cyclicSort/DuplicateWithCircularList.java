@@ -39,8 +39,8 @@ public class DuplicateWithCircularList {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(findDuplicateNum(new int[] { 1, 4, 4, 3, 2 }));
-		System.out.println(findDuplicateNum(new int[] { 2, 1, 3, 3, 5, 4 }));
-		System.out.println(findDuplicateNum(new int[] { 2, 4, 1, 4, 4 }));	
+		System.out.println(findDuplicate(new int[] { 1, 4, 4, 3, 2 }));
+		System.out.println(findDuplicate(new int[] { 2, 1, 3, 3, 5, 4 }));
+		System.out.println(findDuplicate(new int[] { 2, 4, 1, 4, 4 }));	
 	}
 }

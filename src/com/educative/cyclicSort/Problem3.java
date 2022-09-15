@@ -1,4 +1,4 @@
-package com.educative.cylicSort;
+package com.educative.cyclicSort;
 
 import java.util.ArrayList;
 import java.util.List;
